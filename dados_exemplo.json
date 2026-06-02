@@ -1,0 +1,30 @@
+[
+    {
+        "codigo": 101,
+        "nome": "Teclado USB",
+        "categoria": "Informatica",
+        "preco": 89.9,
+        "quantidade": 12
+    },
+    {
+        "codigo": 55,
+        "nome": "Caderno Universitario",
+        "categoria": "Papelaria",
+        "preco": 24.5,
+        "quantidade": 30
+    },
+    {
+        "codigo": 210,
+        "nome": "Mouse sem fio",
+        "categoria": "Informatica",
+        "preco": 59.9,
+        "quantidade": 4
+    },
+    {
+        "codigo": 78,
+        "nome": "Caneta azul",
+        "categoria": "Papelaria",
+        "preco": 2.5,
+        "quantidade": 100
+    }
+]
