@@ -1,10 +1,10 @@
 # Sistema de Estoque e Vendas
 
-Repositorio sugerido para entrega:
+Repositório sugerido para entrega:
 <https://github.com/Rub3n1t0/estrutura-dados-prj1>
 
 Projeto de linha de comando em Python para cadastrar produtos, controlar vendas,
-consultar estoque e gerar relatorios simples.
+consultar estoque e gerar relatórios simples.
 
 ## Como executar
 
@@ -22,44 +22,44 @@ dados iniciais.
 
 ## Funcionalidades
 
-- Cadastrar produto com codigo unico.
-- Editar nome, categoria, preco e quantidade.
-- Remover produto pelo codigo.
-- Buscar produto por codigo com busca binaria.
+- Cadastrar produto com codigo único.
+- Editar nome, categoria, preço e quantidade.
+- Remover produto pelo código.
+- Buscar produto por código com busca binária.
 - Buscar produtos por nome com busca linear.
-- Registrar venda validando estoque disponivel.
-- Listar produtos ordenados por codigo.
+- Registrar venda validando estoque disponível.
+- Listar produtos ordenados por código.
 - Filtrar produtos por categoria.
-- Mostrar relatorio de estoque baixo.
-- Mostrar produto com menor e maior preco.
+- Mostrar relatório de estoque baixo.
+- Mostrar produto com menor e maior preço.
 - Salvar e carregar dados em arquivo JSON.
 - Registrar logs simples em `operacoes.log`.
 
 ## Estrutura
 
-- `main.py`: menu e fluxo da aplicacao.
-- `produto.py`: classe Produto e validacoes.
-- `estoque.py`: cadastro, buscas, vendas e relatorios.
+- `main.py`: menu e fluxo da aplicação.
+- `produto.py`: classe Produto e validações.
+- `estoque.py`: cadastro, buscas, vendas e relatórios.
 - `arquivos.py`: salvar, carregar e registrar logs.
 - `dados_exemplo.json`: arquivo com produtos de exemplo.
-- `RELATORIO.md`: explicacao curta sobre busca, ordenacao e Big-O.
+- `RELATORIO.md`: explicação curta sobre busca, ordenação e Big-O.
 
 ## Exemplos de uso
 
-Ao executar `python main.py`, escolha uma opcao:
+Ao executar `python main.py`, escolha uma opção:
 
 ```text
 1. Cadastrar produto
-4. Buscar produto por codigo
+4. Buscar produto por código
 6. Registrar venda
-7. Listar produtos ordenados por codigo
+7. Listar produtos ordenados por código
 0. Sair
 ```
 
 Exemplo de venda:
 
 ```text
-Codigo do produto vendido: 101
+Código do produto vendido: 101
 Quantidade vendida: 2
 Venda registrada. Estoque atual: 10
 ```
