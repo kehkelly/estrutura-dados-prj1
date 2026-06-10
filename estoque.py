@@ -4,7 +4,7 @@ from produto import Produto
 
 
 class Estoque:
-    """Controla produtos e vendas.
+    """Controla produtos e vendas. 
 
     produtos_nao_ordenados preserva a ordem de cadastro e permite busca linear
     por nome. produtos_ordenados_codigo fica sempre ordenado para busca binaria.
@@ -16,7 +16,7 @@ class Estoque:
 
     def cadastrar_produto(self, produto):
         if self.buscar_por_codigo(produto.codigo) is not None:
-            raise ValueError("Ja existe um produto com esse codigo.")
+            raise ValueError("Codigo existente.")
 
         posicao = self._posicao_insercao(produto.codigo)
         self.produtos_ordenados_codigo.insert(posicao, produto)
