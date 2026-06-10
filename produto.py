@@ -1,11 +1,11 @@
-"""Modelo e validacoes de produto."""
+"""Modelo e validacoes de produto. """
 
 
 class Produto:
     """Representa um produto cadastrado no estoque."""
 
     def __init__(self, codigo, nome, categoria, preco, quantidade):
-        self.codigo = self._validar_codigo(codigo)
+        self.codigo = self._validar_codigo(codigo) 
         self.nome = self._validar_texto(nome, "nome")
         self.categoria = self._validar_texto(categoria, "categoria")
         self.preco = self._validar_preco(preco)
