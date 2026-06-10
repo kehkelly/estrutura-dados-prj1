@@ -40,6 +40,7 @@ class Produto:
             "preco": self.preco,
             "quantidade": self.quantidade,
         }
+        
 
     @classmethod
     def from_dict(cls, dados):

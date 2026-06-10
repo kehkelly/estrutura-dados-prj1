@@ -149,7 +149,7 @@ def relatorio_precos(estoque):
 
 
 def exibir_menu():
-    print("\n=== Sistema de Estoque e Vendas ===")
+    print("\n==== Sistema de Estoque e Vendas ====")
     print("1. Cadastrar produto")
     print("2. Editar produto")
     print("3. Remover produto")
